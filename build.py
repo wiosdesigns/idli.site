@@ -6,13 +6,13 @@ html1 = '''
 <html lang="en">
 <head>
   <title>idli.site</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body{
       text-align: center;
     }
     #contents{
-      padding: 150px 1rem 80px;
+      padding: 80px 1rem;
       display: inline-block;
       width: 100%;
       max-width: 720px;
@@ -32,7 +32,7 @@ html2 = '''
 
 r = requests.get(url)
 content = r.text.split('<div id="contents">')[1]
-content = content.split('<div id="footer">')[0]
+content = content.split('<div id="footer">')[0] + content.split('<div id="footer">')[1].split("</div>")[1].split("</body>")[0]
 with open('index.html','w') as f:
   f.write(html1+content+html2)
   f.close()
