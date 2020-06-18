@@ -8,8 +8,13 @@ html1 = '''
   <title>idli.site</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    *{
+      boxx-sizing: border-box;
+    }
     body{
       text-align: center;
+      padding:0;
+      margin:0;
     }
     #contents{
       padding: 80px 1rem;
