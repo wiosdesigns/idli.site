@@ -1,4 +1,5 @@
-# idli.site: Make your website with Google Docs
+# idli.site
+## Make your website with Google Docs
 
 ## How?
 - Fork or clone this repo
