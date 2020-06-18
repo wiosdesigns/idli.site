@@ -1,10 +1,12 @@
 import requests
+url = 'https://docs.google.com/document/d/e/2PACX-1vRGa8lluXFb23iFjT6XclRqXarxAIVCdvjg25xaWgTwV0PU8IwWZJUv01yTIVFnmkn1lak7N2obDnEr/pub'
 
 html1 = '''
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <title>idli.site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body{
       text-align: center;
@@ -28,7 +30,6 @@ html2 = '''
 '''
 
 
-url = 'https://docs.google.com/document/d/e/2PACX-1vRGa8lluXFb23iFjT6XclRqXarxAIVCdvjg25xaWgTwV0PU8IwWZJUv01yTIVFnmkn1lak7N2obDnEr/pub'
 r = requests.get(url)
 content = r.text.split('<div id="contents">')[1]
 content = content.split('<div id="footer">')[0]
