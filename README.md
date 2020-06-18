@@ -9,4 +9,4 @@
 - This pipeline can be automated with [netlify.com](https://netlify.com)
 
 ## Paid Support
-- We offer paid support for setup and training. Contact [hi@wiosdesigns.xyz](mailto:hi@wiosdesigns.xyz) or [WhatsApp](https://wa.me/919901297970)
+- We offer paid support for setup and training. Contact us on [hi@wiosdesigns.xyz](mailto:hi@wiosdesigns.xyz) or [WhatsApp](https://wa.me/919901297970)
