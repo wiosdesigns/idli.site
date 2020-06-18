@@ -17,7 +17,7 @@ html1 = '''
       margin:0;
     }
     #contents{
-      padding: 80px 1rem;
+      padding: 40px 1rem;
       display: inline-block;
       max-width: 720px;
       text-align: left;
