@@ -9,7 +9,7 @@ html1 = '''
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     *{
-      boxx-sizing: border-box;
+      box-sizing: border-box;
     }
     body{
       text-align: center;
@@ -22,6 +22,7 @@ html1 = '''
       width: 100%;
       max-width: 720px;
       text-align: left;
+      margin:0;
     }
   </style>
 </head>
