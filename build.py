@@ -19,7 +19,6 @@ html1 = '''
     #contents{
       padding: 80px 1rem;
       display: inline-block;
-      width: 100%;
       max-width: 720px;
       text-align: left;
       margin:0;
